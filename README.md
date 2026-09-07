@@ -131,6 +131,7 @@ npm start
 ## Notes
 
 * The application reads the port from `process.env.PORT` and falls back to `3000` if the variable is not provided.
+*The application now runs on port 5000 by default if no port is specified and also the extra port (3000) variable from the src/config.js is removed in branch feature/port-fix ensuring the app runs properly .
 * The README intentionally contains an incorrect startup command to simulate environment drift.
 * Follow safe Git practices throughout the exercise by performing development on feature branches and integrating changes through a Pull Request rather than committing directly to `main`.
 
